@@ -9,10 +9,8 @@ body {
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 40px;
-  
 }
 .full-page {
-
 }
 /* banner section */
 header {
@@ -22,13 +20,13 @@ header {
   width: 100%;
   border-radius: 16px;
   max-height: 600px;
-  
 }
 .banner-container {
   /* height: 700px; */
   background-repeat: no-repeat;
   border-radius: 16px;
   background-image: url("./resources/Rectangle 15.png");
+  max-width: 1320px;
 }
 
 .banner-title {
@@ -129,17 +127,59 @@ main {
   margin-left: 60px;
   margin-top: 40px;
   border: none;
-  
 }
 .window-1 {
 }
 .window-2 {
   max-width: 320;
   height: 460px;
- margin-top: 100px;
- margin-bottom: 70px;
- margin-left: 180px
+  margin-top: 100px;
+  margin-bottom: 70px;
+  margin-left: 180px;
 }
 .img-24 {
-  width:100%;
+  width: 100%;
+}
+/* .location-section */
+.location-div {
+  width: 1209px;
+  height: 600px;
+  text-align: center;
+  background-image: url("./resources/Vector red.png");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+.location-text {
+}
+.adress {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-top: 100px;
+}
+span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+}
+.lal-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f00;
+  padding-top: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+
 }

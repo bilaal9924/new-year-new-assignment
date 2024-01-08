@@ -203,12 +203,68 @@ span {
   font-family: Inter;
 }
 /* picture-section */
-.picture-section{
+.picture-section {
   display: flex;
 }
-.picture{
+.picture {
   width: 400px;
   height: 440px;
   padding: 10px;
-
+}
+/* subscribe-section */
+.subscribe-section {
+  width: 1209px;
+  height: 600px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgb(249, 237, 239);
+  border-radius: 15px;
+  padding-top: 100px;
+}
+.newsletter {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.subscribe-lorem {
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.email-field {
+  width: 648px;
+  height: 72px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+.gmail {
+  width: 438px;
+  height: 65px;
+  border-radius: 50px 0px 0px 50px;
+  color: black;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+  border: none;
+}
+.suscribe {
+  width: 210px;
+  height: 65px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  margin-right: -5px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  
 }

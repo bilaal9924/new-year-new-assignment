@@ -2,19 +2,22 @@
   padding: 0;
   margin: 0;
 }
-.full-page {
-  background-color: pink;
+body {
   max-width: 1600px;
   height: 7050px;
-  padding-left: 40px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   padding-top: 40px;
+}
+.full-page {
 }
 /* banner section */
 header {
   background-image: url("./resources/Banner Image.png");
   background-repeat: no-repeat;
   max-width: 1320px;
+  width: 100%;
+  border-radius: 16px;
   max-height: 600px;
 }
 .banner-container {
@@ -30,7 +33,6 @@ header {
   color: #fff;
   font-size: 30px;
   font-weight: 400;
-
 }
 .banner-heading {
   text-align: center;
@@ -40,8 +42,44 @@ header {
   width: 632px;
   font-size: 70px;
   font-weight: 900;
-  margin-left: 344px;
-  margin-bottom: 177px;
+  margin: 0 auto;
   height: 190px;
-  
+}
+/* main section */
+main {
+  margin-top: 0;
+}
+.main-gate {
+  margin-top: 50px;
+}
+.offer {
+  color: #f00;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.offer-slogan {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-product {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.offer-img {
+  width: 800px;
+  height: 500px;
+  padding-left: 170px;
+  margin-top: 50px;
+
 }

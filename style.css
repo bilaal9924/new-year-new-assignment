@@ -11,6 +11,8 @@ body {
 .sect-1{
   padding: 20px 140px 20px 140px;
   border: 1px solid black;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 .full-page {
 }
@@ -189,7 +191,7 @@ span {
 .image-section {
   max-width: 100%;
   width: 1209px;
-  height: 
+  
 }
 .image-title {
   color: #f00;
@@ -277,3 +279,60 @@ span {
   font-weight: 600;
   
 }
+/* footer section */
+footer{
+  background-image: url('./resources/Rectangle 10.png');
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 650px;
+}
+.sect2{
+  width: 1350px;
+  height: 650px;
+}
+.footer-section{
+   
+  max-width: 100%;
+  max-height: 100%;
+}
+   
+.firstline{
+ display: flex;
+ margin: 0px 140px 50px 140px;
+ justify-content: space-between;
+ 
+}
+.footer-lorem{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.left-1{
+
+}
+.footer-number{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.footer-site{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.third-line{
+  color:#fff;
+  position: relative;
+  top: 294px;
+  left: 140px;
+}
+

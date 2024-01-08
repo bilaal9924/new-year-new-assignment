@@ -6,9 +6,11 @@
 body {
   max-width: 1600px;
   height: 7050px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 40px;
+  
+}
+.sect-1{
+  padding: 20px 140px 20px 140px;
+  border: 1px solid black;
 }
 .full-page {
 }
@@ -148,6 +150,7 @@ main {
   background-image: url("./resources/Vector red.png");
   border-radius: 16px;
   background-repeat: no-repeat;
+  max-width: 100%;
 }
 .location-text {
 }
@@ -184,6 +187,9 @@ span {
 }
 /* image section */
 .image-section {
+  max-width: 100%;
+  width: 1209px;
+  height: 
 }
 .image-title {
   color: #f00;
@@ -205,11 +211,13 @@ span {
 /* picture-section */
 .picture-section {
   display: flex;
+  justify-content: space-between;
 }
 .picture {
-  width: 400px;
-  height: 440px;
+  width: 300px;
+  height: 340px;
   padding: 10px;
+  
 }
 /* subscribe-section */
 .subscribe-section {
@@ -220,6 +228,7 @@ span {
   background-color: rgb(249, 237, 239);
   border-radius: 15px;
   padding-top: 100px;
+  max-width: 100%;
 }
 .newsletter {
   color: #070211;

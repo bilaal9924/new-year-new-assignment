@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,8 +9,10 @@ body {
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 40px;
+  
 }
 .full-page {
+
 }
 /* banner section */
 header {
@@ -19,6 +22,7 @@ header {
   width: 100%;
   border-radius: 16px;
   max-height: 600px;
+  
 }
 .banner-container {
   /* height: 700px; */
@@ -47,7 +51,7 @@ header {
 }
 /* main section */
 main {
-  margin-top: 0;
+  max-width: 1320px;
 }
 .main-gate {
   margin-top: 50px;
@@ -79,7 +83,63 @@ main {
 .offer-img {
   width: 800px;
   height: 500px;
-  padding-left: 170px;
+  margin-left: 180px;
   margin-top: 50px;
+}
+/* .main-door section */
+.door-section {
+  background-image: url("./resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.front-door {
+  margin-top: 100px;
+  display: flex;
 
+  background-image: url("./resources/Vector@2x.png");
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.welcome-text {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 800;
+  width: 642px;
+  margin-left: 30px;
+  margin-top: 135px;
+}
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.welcome-btn {
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-top: 40px;
+  border: none;
+  
+}
+.window-1 {
+}
+.window-2 {
+  max-width: 320;
+  height: 460px;
+ margin-top: 100px;
+ margin-bottom: 70px;
+ margin-left: 180px
+}
+.img-24 {
+  width:100%;
 }

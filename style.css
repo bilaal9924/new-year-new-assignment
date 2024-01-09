@@ -12,8 +12,7 @@ body {
   margin: 0 auto;
   max-width: 1600px;
 }
-.full-page {
-}
+
 /* banner section */
 header {
   background-image: url("./resources/Banner Image.png");
@@ -130,8 +129,7 @@ main {
   margin-top: 40px;
   border: none;
 }
-.window-1 {
-}
+
 .window-2 {
   max-width: 320;
   height: 460px;
@@ -152,8 +150,7 @@ main {
   background-repeat: no-repeat;
   max-width: 100%;
 }
-.location-text {
-}
+
 .adress {
   color: #070211;
   font-family: Inter;

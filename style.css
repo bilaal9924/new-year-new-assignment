@@ -6,11 +6,9 @@
 body {
   max-width: 1600px;
   height: 7050px;
-  
 }
-.sect-1{
+.sect-1 {
   padding: 20px 140px 20px 140px;
-  border: 1px solid black;
   margin: 0 auto;
   max-width: 1600px;
 }
@@ -191,7 +189,6 @@ span {
 .image-section {
   max-width: 100%;
   width: 1209px;
-  
 }
 .image-title {
   color: #f00;
@@ -219,7 +216,6 @@ span {
   width: 300px;
   height: 340px;
   padding: 10px;
-  
 }
 /* subscribe-section */
 .subscribe-section {
@@ -231,6 +227,7 @@ span {
   border-radius: 15px;
   padding-top: 100px;
   max-width: 100%;
+  background-repeat: no-repeat;
 }
 .newsletter {
   color: #070211;
@@ -277,62 +274,78 @@ span {
   font-family: Inter;
   font-size: 22px;
   font-weight: 600;
-  
 }
 /* footer section */
-footer{
-  background-image: url('./resources/Rectangle 10.png');
+footer {
+  background-image: url("./resources/Rectangle 10.png");
   background-repeat: no-repeat;
   width: 1350px;
   height: 650px;
 }
-.sect2{
+.sect2 {
   width: 1350px;
   height: 650px;
 }
-.footer-section{
-   
+.footer-section {
   max-width: 100%;
   max-height: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
 }
-   
-.firstline{
- display: flex;
- margin: 0px 140px 50px 140px;
- justify-content: space-between;
- 
+
+.firstline {
+  display: flex;
+  margin: 0px 50px 50px 0px;
+  justify-content: space-between;
+  background-image: ('./resources/Line 1.png')
 }
-.footer-lorem{
-  color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+.footer-lorem {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+  margin-top: 80px;
 }
-.left-1{
+.left-1 {
+  margin-top: 90px;
+  
+
 
 }
-.footer-number{
-  color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+.footer-number {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+ 
+  
 }
-.footer-site{
-  color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+.footer-site {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  
+  
 }
-.third-line{
-  color:#fff;
-  position: relative;
-  top: 294px;
-  left: 140px;
+.second-line{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.third-line {
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  margin-top: 30px;
+  margin-right: 10px;
 }
 
